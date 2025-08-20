@@ -1,85 +1,110 @@
-# 📘 Mastering Deep Learning: From Fundamentals to Advanced Applications
+# 📘 Deep Learning Technology and Applications
 
-Welcome to the official repository for **Mastering Deep Learning: From Fundamentals to Advanced Applications** 🚀  
+Welcome to the official repository for **Deep Learning Technology and Applications** 🚀  
 
-This repo contains **code implementations, projects, and resources** that accompany the book. The book takes you on a journey from the **core foundations of Deep Learning** to **cutting-edge applications** across **Computer Vision, NLP, Speech, and Multimodal AI**.
-
----
-
-## 📖 About the Book
-Deep Learning is transforming industries — from healthcare to finance, from autonomous systems to creative arts.  
-This book is designed to take you step by step:  
-
-- **Part 1:** Foundations – Build a strong base in Neural Networks, CNNs, RNNs, Transformers  
-- **Part 2:** Advanced Applications – Dive into Generative Models, Vision Transformers, Large Language Models, Speech AI, and Deployment  
-
-By the end, you’ll not only understand **how deep learning works** but also **build real-world projects**.
+This repo contains **all the chapters and project-based tasks** that accompany the book.  
+The aim is to take learners from **deep learning fundamentals** to **real-world AI systems** with hands-on projects.
 
 ---
 
-## 📚 Table of Contents
+## 📂 Repository Structure
 
-### Part 1: Foundations and Core Deep Learning
-1. **Introduction to AI, ML, and Deep Learning**  
-   - What is DL? | ML vs DL vs AI | Use cases  
-2. **Artificial Neural Networks (ANNs)**  
-   - Perceptron | Backpropagation | Activation & Loss functions  
-   - 🛠 Projects: MNIST Digit Classification, Spam Classifier  
-3. **Training Neural Networks Effectively**  
-   - Optimizers, Learning Rate Schedules, Regularization, Checkpoints  
-
-**Section A: Computer Vision**  
-4. **Convolutional Neural Networks (CNNs)**  
-   - CNN basics | VGG, ResNet, Inception | Transfer Learning  
-   - 🛠 Projects: CIFAR-10 Classification, Object Detection  
-
-**Section B: Natural Language Processing (NLP)**  
-5. **RNN, LSTM & GRU** – Sequential Models  
-   - 🛠 Projects: IMDB Sentiment Classifier, Chatbot  
-6. **Transformers and Language Models**  
-   - Attention, BERT, GPT  
-   - 🛠 Projects: Text Classification, Text Generation  
-
-**Section C: Speech and Audio**  
-7. **Speech Recognition & Speaker ID**  
-   - Audio preprocessing, ASR, Voiceprints  
-   - 🛠 Projects: Speech-to-Text, Voice Recognition  
+- **`chapters/`** → Contains chapter-wise notes, explanations, and theoretical material.  
+- **`tasks/`** → Contains all task implementations (organized under projects).  
 
 ---
 
-### Part 2: Advanced Deep Learning Concepts
-8. **Generative Models** – Autoencoders, GANs  
-   - 🛠 Projects: Image Generation, Anomaly Detection  
-9. **Attention Beyond NLP** – Vision Transformers, CLIP, Multimodal AI  
-10. **Advanced NLP** – Instruction-tuned LLMs, RAG, Prompting  
-   - 🛠 Projects: QA System, Summarization  
-11. **Advanced Vision Techniques** – Mask R-CNN, Tracking, SAM, DINO  
-12. **Advanced Speech Applications** – TTS, Emotion Recognition  
-   - 🛠 Projects: Voice Assistant, Tacotron Speech Synthesis  
+## 📖 Book Content Overview
 
-### Final Chapter  
-13. **Deploying DL Systems** – Flask/FastAPI, ONNX, CoreML, Cloud Deployment  
+### Project 1: Understanding Deep Learning (Foundations)
+- Task 1: Understanding AI, ML, and DL (Theory)  
+- Task 2: Artificial Neural Networks (ANNs)  
+- Task 3: Efficiently Training Neural Networks  
+- Task 4: ANN on MNIST Handwritten Digit Recognition  
+- Task 5: Binary Classifier – Spam vs Non-Spam  
 
 ---
 
-## 🛠 Projects Included
-- ✅ MNIST Digit Classifier  
-- ✅ Spam Detector  
-- ✅ CIFAR-10 Image Classifier  
-- ✅ Object Detection with ResNet  
-- ✅ IMDB Sentiment Analysis with LSTM  
-- ✅ RNN-based Chatbot  
-- ✅ BERT Text Classifier  
-- ✅ GPT-2 Text Generator  
-- ✅ Speech-to-Text with Transformer  
-- ✅ Voiceprint Recognition with CNN  
-- ✅ GAN-based Image Generator  
-- ✅ Autoencoder for Anomaly Detection  
-- ✅ Real-time Object Detection  
-- ✅ Image Segmentation with Mask R-CNN  
-- ✅ Custom QA System with LLM  
-- ✅ TTS with Tacotron-2  
-- ✅ Build Your Own Voice Assistant  
+### Project 2: Computer Vision and Deep Learning
+- Task 1: CNNs (Theory)  
+- Task 2: CIFAR-10 Image Classification  
+- Task 3: Object Detection with Pre-trained ResNet  
+- Task 4: Real-Time Object Detection  
+- Task 5: Image Segmentation with Mask R-CNN  
+
+---
+
+### Project 3: Natural Language Processing (NLP) and Deep Learning
+- Task 1: RNN, LSTM & GRU for Text (Theory)  
+- Task 2: IMDB Sentiment Classification with LSTM  
+- Task 3: Chatbot using RNN  
+
+---
+
+### Project 4: Custom Question Answering System
+A full-fledged **intelligent QA system** using **Large Language Models (LLMs)**.  
+This project covers modern advancements in AI reasoning:  
+
+- ✅ Classic QA pipeline with LLMs  
+- ✅ **Retrieval-Augmented Generation (RAG)** – combining LLMs with external knowledge sources  
+- ✅ **Agentic AI** – LLM-powered autonomous agents for complex queries  
+- ✅ **Graph-based Reasoning** – representing knowledge as nodes & edges for explainable AI  
+- ✅ **Multi-hop Question Answering** – chaining reasoning steps to solve advanced queries  
+- ✅ Integration with APIs, databases, and external tools  
+
+---
+
+### Project 5: Text Summarization
+- Text Summarization with Fine-Tuned **T5 Transformer**  
+
+---
+
+### Project 6: Transformers and Language Models
+- Task 1: Understanding Transformer (Theory)  
+- Task 2: Text Classification with **BERT**  
+- Task 3: Text Generation with **GPT-2**  
+
+---
+
+### Project 7: Deep Learning in Speech Recognition
+- Task 1: Speech Recognition (Theory)  
+- Task 2: Speech-to-Text using Transformer  
+- Task 3: Speaker Verification with CNN  
+- Task 4: Build Your Own Voice Assistant  
+- Task 5: Speech Synthesis with **Tacotron-2**  
+
+---
+
+### Project 8: Generative Models and Representation Learning
+- Task 1: Generative Models & Representation Learning (Theory)  
+- Task 2: Building & Deploying Real-World DL Systems (Theory)  
+- Task 3: Image Generation with **GAN**  
+- Task 4: Anomaly Detection with **Autoencoders**  
+
+---
+
+## 🛠 Implemented Projects (Quick List)
+
+Here’s a quick glance at the **hands-on projects implemented** in this repository:
+
+- ✅ ANN on **MNIST Handwritten Digit Recognition**  
+- ✅ **Binary Classifier** (Spam vs Non-Spam)  
+- ✅ **CIFAR-10 Image Classification**  
+- ✅ **Object Detection** with Pre-trained ResNet  
+- ✅ **Real-Time Object Detection**  
+- ✅ **Image Segmentation** with Mask R-CNN  
+- ✅ **IMDB Sentiment Analysis** with LSTM  
+- ✅ **Chatbot** with RNN  
+- ✅ **Custom QA System** (LLM + RAG + Agents + Graph-based reasoning)  
+- ✅ **Text Summarization** with Fine-Tuned T5  
+- ✅ **Text Classification** with BERT  
+- ✅ **Text Generation** with GPT-2  
+- ✅ **Speech-to-Text** with Transformer  
+- ✅ **Speaker Verification** with CNN  
+- ✅ **Voice Assistant**  
+- ✅ **Speech Synthesis** with Tacotron-2  
+- ✅ **Image Generation** with GAN  
+- ✅ **Anomaly Detection** with Autoencoders  
 
 ---
 
@@ -87,5 +112,5 @@ By the end, you’ll not only understand **how deep learning works** but also **
 
 ### Clone the repo
 ```bash
-git clone https://github.com/yourusername/mastering-deep-learning.git
-cd mastering-deep-learning
+git clone https://github.com/MuhammadAhmedAbbasi/deep-learning-fundamentals-to-advanced.git
+cd deep-learning-technology-applications
